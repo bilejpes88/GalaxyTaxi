@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Pruh s časem, jménem řidiče a datem -->
+    <TextView
+        android:id="@+id/rideHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Řidič: Jan Novák | Datum: 01.02.2025 | Čas: 14:00"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Startovní adresa -->
+    <TextView
+        android:id="@+id/startAddressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start: Masarykovo náměstí 1, Brno"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Pole pro ujeté km -->
+    <EditText
+        android:id="@+id/kmText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ujeté km"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" />
+
+    <!-- Pole pro cenu -->
+    <EditText
+        android:id="@+id/priceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cena"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:enabled="false" />
+
+    <!-- Textové pole pro konečnou adresu -->
+    <AutoCompleteTextView
+        android:id="@+id/endAddressInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Konečná adresa"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko Získat adresu -->
+    <Button
+        android:id="@+id/getAddressButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Získat adresu"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko Jízda ukončena -->
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jízda ukončena" />
+</LinearLayout>

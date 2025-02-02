@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Pole pro zadání finálních kilometrů -->
+    <EditText
+        android:id="@+id/mileageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zadejte konečné kilometry"
+        android:inputType="number" />
+
+    <!-- Tlačítko pro potvrzení konce směny -->
+    <Button
+        android:id="@+id/confirmEndShiftButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Potvrdit konec směny"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

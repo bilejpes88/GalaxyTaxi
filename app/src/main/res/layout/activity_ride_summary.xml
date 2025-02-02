@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Adresy začátku a konce -->
+    <TextView
+        android:id="@+id/startAddressTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start: "
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/endAddressTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konec: "
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Pole pro úpravu km -->
+    <EditText
+        android:id="@+id/kmEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ujeté km"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Pole pro úpravu ceny -->
+    <EditText
+        android:id="@+id/priceEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cena"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko OK -->
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítka pro další akce -->
+    <Button
+        android:id="@+id/newRideButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Další zakázka"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/mainMenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hlavní menu" />
+</LinearLayout>

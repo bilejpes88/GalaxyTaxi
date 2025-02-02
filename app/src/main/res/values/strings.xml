@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">galaxytaxi</string>
+    <string name="driver_name">Jméno řidiče</string>
+    <string name="start_time">Čas začátku jízdy</string>
+    <string name="start_address">Místo začátku jízdy</string>
+    <string name="end_time">Čas konce jízdy</string>
+    <string name="end_address">Místo konce jízdy</string>
+    <string name="distance">Ujeté km</string>
+    <string name="price">Cena</string>
+    <string name="vehicle">Vozem</string>
+    <string name="date">Dne</string>
+    <string name="app_logo">GalaxyTaxi</string>
+    <string name="unknown_driver">Neznámé</string>
+    <string name="unknown_time">Neznámý čas</string>
+    <string name="unknown_address">Neznámé místo</string>
+    <string name="unknown_vehicle">Neznámý vůz</string>
+    <string name="unknown_date">Neznámé datum</string>
+    <string name="distance_format">%.1f km</string>
+    <string name="price_format">%.0f Kč</string>
+</resources>

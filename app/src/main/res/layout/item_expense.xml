@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle">
+
+    <!-- Text pro popis výdaje -->
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Popis výdaje"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:paddingEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Text pro částku výdaje -->
+    <TextView
+        android:id="@+id/amountText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Částka"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textAlignment="viewEnd"
+        android:ellipsize="end"
+        android:maxLines="1" />
+</LinearLayout>

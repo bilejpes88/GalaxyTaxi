@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/windowBackground">
+
+    <!-- Texty pro zobrazení tržby a výdajů -->
+    <TextView
+        android:id="@+id/totalIncomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Utržená částka: 0 Kč"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/totalExpensesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Výdaje: 0 Kč"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/totalDueText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odvod: 0 Kč"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/overallDueText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odvod celkem: 0 Kč"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <!-- RecyclerView pro seznam jízd -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ridesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="8dp" />
+
+    <!-- RecyclerView pro seznam výdajů -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/expensesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="16dp" />
+
+    <!-- Tlačítko pro ukončení směny -->
+    <Button
+        android:id="@+id/endShiftButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konec směny"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:backgroundTint="?android:colorAccent"
+        android:textColor="?android:attr/textColorPrimaryInverse" />
+
+</LinearLayout>

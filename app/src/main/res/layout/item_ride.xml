@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical">
+
+    <!-- Text pro startovní adresu -->
+    <TextView
+        android:id="@+id/startAddressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Startovní adresa"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Text pro konečnou adresu -->
+    <TextView
+        android:id="@+id/endAddressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konečná adresa"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Text pro cenu -->
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cena"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textAlignment="textEnd"
+        android:ellipsize="end"
+        android:maxLines="1" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tlačítko pro novou jízdu -->
+    <Button
+        android:id="@+id/newRideButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nová jízda"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko pro tankování a výdaje -->
+    <Button
+        android:id="@+id/fuelExpenseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tankování, výdaje"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko pro osobní přehled -->
+    <Button
+        android:id="@+id/personalOverviewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Osobní přehled"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko pro mimořádné příjmy -->
+    <Button
+        android:id="@+id/extraMoneyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Peníze"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko pro ukončení směny -->
+    <Button
+        android:id="@+id/endShiftButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konec směny" />
+</LinearLayout>

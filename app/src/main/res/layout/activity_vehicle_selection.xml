@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spinner pro výběr vozu -->
+    <Spinner
+        android:id="@+id/vehicleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Textové pole pro zadání kilometrů -->
+    <EditText
+        android:id="@+id/startingMileageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zadejte počáteční kilometry"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tlačítko pro potvrzení -->
+    <Button
+        android:id="@+id/startShiftButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zahájit směnu" />
+</LinearLayout>
